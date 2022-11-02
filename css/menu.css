@@ -2,6 +2,42 @@ body {
   background-color: #453fbb;
 }
 
+nav {
+  margin-top: 60px;
+  border: 10px solid #fbadf4;
+}
+.position-absolute {
+  top: -75%;
+  right: 4%;
+  width: 20rem;
+}
+img {
+  width: 100%;
+}
+
+.imgs {
+  height: 25rem;
+}
+
+.nav-link {
+  font-family: "Bungee Outline", cursive;
+  color: #64dfdf;
+  font-size: 70px;
+  text-decoration: none;
+}
+
+.navbar-toggler {
+  color: #64dfdf;
+  font-size: 40px;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(100,223,223)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.button {
+  color: #64dfdf;
+}
+
 h1 {
   font-family: "Silkscreen", cursive;
   color: #fbd2f9;
