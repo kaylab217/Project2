@@ -1,0 +1,26 @@
+body {
+  background-color: #453fbb;
+}
+
+h1 {
+  font-family: "Silkscreen", cursive;
+  color: #fbd2f9;
+  font-size: 80px;
+}
+h2 {
+  font-family: "Silkscreen", cursive;
+  color: #56cfe1;
+  font-size: 30px;
+}
+p {
+  font-family: cy, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff5ff;
+}
+
+h3 {
+  font-family: "Silkscreen", cursive;
+  color: #fbadf4;
+  font-size: 20px;
+}
