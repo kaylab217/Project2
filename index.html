@@ -26,45 +26,145 @@
     <link rel="stylesheet" href="https://use.typekit.net/stu2yvl.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
-      <label id="hamburger-icon" for="menu-toggle">&#9776;</label>
-      <input type="checkbox" id="menu-toggle" />
-
-      <div>
-        <ul id="menu">
-          <span
-            ><a href="#index"> <li>HOME</li> </a></span
-          >
-          <span
-            ><a href="#about"> <li>ABOUT</li> </a></span
-          >
-          <span>
-            <a href="#menu"> <li>MENU</li> </a></span
-          >
-        </ul>
+    <nav class="navbar navbar-expand-lg position-relative">
+      <div class="container-fluid">
+        <a class="position-absolute" href="index.html">
+          <img src="./images/2.am logo.png"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">MENU</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
-    <div class="logo">
-      <img src="./images/2.am logo.png" />
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col m-5">
+          <img
+            class="img1"
+            src="./images/city.gif"
+            alt="pink city landscape going up and down."
+          />
+        </div>
+        <div class="col mt-5">
+          <h1 class="welcome">WELCOME!</h1>
+          <p class="fs-1">
+            2. am is a lodging wh're thee can stayeth up late and just relaxeth,
+            w'rk, 'r doth whatev'r thee'd liketh! thanketh's f'r visiting!
+          </p>
+        </div>
+      </div>
+      <br /><br />
+      <h1>REVIEWS!</h1>
+
+      <div class="row m-5">
+        <div class="col-md-4 col-sm-12">
+          <img
+            class="imgs"
+            src="./images/head.gif"
+            alt="a picture of a statue with light blue and neon purple filter over it ."
+          />
+
+          <p>
+            Most wondrous exp'rience ev'r! i wast joyous to seeth how crisp
+            ev'rything wast. Ev'rything wast simply decadent. Ov'rall
+            exp'rience: 5 stars. - john doe
+          </p>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <img
+            class="imgs"
+            src="./images/three.gif"
+            alt="three statues just standing on a random purpulish sunset color plane."
+          />
+
+          <p>
+            Visit'd 2. am 2 days ago. The ambience wast most wondrous and the
+            s'rvice wast most wondrous! i hath felt liketh the drinks and food
+            w're extremely valorous and the value f'r wage acc'rding to me wast
+            stupendous. Ov'rall i wouldst sayeth the restaurant wast w'rth the
+            wage! - richard roe
+          </p>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <img
+            class="imgs"
+            src="./images/hand.gif"
+            alt="pink hand making th a-ok sign."
+          />
+
+          <p>
+            Yumm-o! ev'rything wast just so yummy. The tea wast brew'd to
+            p'rfection. I’d giveth m're than 5 stars if 't be true i couldst! -
+            jane doe
+          </p>
+        </div>
+      </div>
     </div>
 
-    <h1>HOME</h1>
+    <div class="vstack gap-3 mx-auto col-xs-1" align="center">
+      <div>
+        <h2>CHECK OUT WHATS PLAYING NOW!</h2>
+      </div>
+
+      <div>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/wOMwO5T3yT4"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <div class="container text-center mw-100">
+      <div class="footer">
+        <div class="row">
+          <div class="col">
+            <h1>2.am</h1>
+          </div>
+          <div class="col m-4">
+            <p>© 2022 2.am CO., LTD. All Rights Reserved.</p>
+          </div>
+          <div class="col m-4">
+            <a class="foot-link" href="index.html">HOME</a>
+
+            <a class="foot-link" href="menu.html">MENU</a>
+
+            <a class="foot-link" href="about.html">ABOUT</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
-
-    <div class="container text-center">
-      <div class="row">
-        <div class="col"><img src="./images/AO6g.gif" /></div>
-        <div class="col">2 of 2</div>
-      </div>
-      <div class="row">
-        <div class="col">1 of 3</div>
-        <div class="col">2 of 3</div>
-        <div class="col">3 of 3</div>
-      </div>
-    </div>
   </body>
 </html>
