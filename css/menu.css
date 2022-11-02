@@ -60,3 +60,44 @@ h3 {
   color: #fbadf4;
   font-size: 20px;
 }
+
+.footer {
+  margin-top: 60px;
+  border: 10px solid #fbadf4;
+}
+
+.foot-link {
+  font-family: "Bungee Outline", cursive;
+  color: #64dfdf;
+  font-size: 30px;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+
+iframe {
+    border: 10px solid #72efdd;
+  }
+  
+  @media screen and (max-width: 600px) {
+    nav {
+      min-height: 8vh;
+    }
+  
+    .position-absolute {
+      top: -7%;
+      right: 1%;
+      width: 8rem;
+    }
+  
+    .welcome {
+      padding-top: 0px;
+    }
+
+    .imgs {
+        height: 15rem;
+      }
+    
+      iframe {
+        width: 90%;
+      }
