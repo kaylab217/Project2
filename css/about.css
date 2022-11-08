@@ -1,0 +1,27 @@
+body {
+  background-color: #453fbb;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  font-family: "Silkscreen", cursive;
+  color: #fff5ff;
+}
+
+p {
+  color: #fff5ff;
+  font-size: xx-large;
+  text-align: justify;
+}
+p2 {
+  color: #fff5ff;
+  font-size: xx-large;
+  text-align: justify;
+}
+
+#lounge {
+  padding-left: 33%;
+  width: 694px;
+  height: 390px;
+}
